@@ -1,0 +1,8 @@
+Interacción inalámbrica con dispositivos de bajo costo para pantallas horizontales
+Autores
+Rhadamés Carmona
+Marcos Ramírez
+Resumen
+El Centro de Computación Gráfica de la UCV cuenta con una mesa de proyección horizontal o Workbench, en donde se proyectan imágenes estereoscópicas.  Actualmente, la interacción con la mesa de trabajo se logra con dispositivos cableados, los cuales son costosos, pueden resultar incómodos, y limitan los movimientos del usuario. En este trabajo se propone utilizar los controles de la consola de videojuegos Wii, los cuales se pueden comunicar con el computador vía bluetooth. El rastreo de la posición de la cabeza del usuario se logra colocando unos leds infrarrojos en los lentes estereoscópicos para triangular con el control del Wii y determinar su posición. Con la posición del usuario, se realiza el despliegue estereoscópico para lograr el efecto 3D deseado. También se logra la manipulación de los objetos de la escena con otro control del Wii. Estas funcionalidades son encapsuladas en una librería para su posterior uso en aplicaciones que requieran de la interacción con la pantalla de proyección.
+
+Palabras claves: rastreo de cabeza, interacción humano-computador, realidad virtual.

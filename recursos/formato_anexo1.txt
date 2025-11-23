@@ -1,0 +1,14 @@
+Plantilla de resumen (formato exacto que utilizará la aplicación)
+
+Título del trabajo en una línea
+Autores
+Autor 1
+Autor 2
+Autor 3
+Resumen
+Aquí comienza el cuerpo del resumen.
+
+.  .  .  .
+
+Palabras claves: palabra1, palabra2, palabra3
+

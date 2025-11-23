@@ -1,0 +1,8 @@
+Segmentación Multicanal de Tumores Cerebrales en Imagenología de Resonancia Magnética con Autómatas Celulares Paralelizados en GPU
+Autores
+Antonio Rueda-Toicen
+Rhadamés Carmona
+Resumen
+La segmentación de imágenes es el  proceso de particionar una imagen en múltiples conjuntos de píxeles  o  vóxeles  que  comparten  alguna  característica  visual.  Existen  diversos  métodos  de segmentación, entre los cuales encontramos algunos basados en morfología matemática, contornos activos  y  modelos  gráficos  probabilísticos.  Los métodos  basados  en  autómatas celulares  pueden acoplarse a más de uno de estos métodos. Entre los métodos de segmentación basados en autómatas celulares  se  encuentra  el  algoritmo  GrowCut,  el  cual  define  una  regla  de  autómata  celular determinístico que  simula el crecimiento competitivo de varias colonias de bacterias cuyo territorio es el espacio de la imagen. En este trabajo se presentan nuevas reglas para este tipo de autómatas, así como una metodología para comparar su desempeño y calidad de segmentación en problemas de segmentación de tumores cerebrales para planificación de radiocirugía estereotáctica. Se presentan una comparación de resultados en términos de calidad de segmentación y tiempo de respuesta para un  conjunto  de  reglas  y  distintos  casos  de  prueba. Adicionalmente,  se  especifica  un  patrón  de implementación en  CUDA que aprovecha la capacidad de paralelismo inherente de los autómatas celulares y un método para la selección no supervisada de la configuración inicial del autómata.   
+
+Palabras claves: Autómata Celular, Procesamiento de Imágenes, Segmentación, GPU
